@@ -23,7 +23,16 @@ hero:
       target: _blank
   code: |
     ```bash [Terminal]
-    npx nuxi init -t github:nuxt-ui-pro/docs
+    curl --request POST \
+  --url 'https://api.aipify.co/get_joke?=' \
+  --header 'Authorization: Bearer daa015e25ee5b85f545796c16c3d46c8ec608a7aab533509db51513b9b1c722f' \
+  --header 'Content-Type: application/json' \
+  --header 'User-Agent: insomnia/8.6.0' \
+  --data '{
+	"messages" : [
+        { "role": "user", "content": "I need a helarious joke" }
+    ]
+}'
     ```
 features:
   title: 'All-in-one docs template'
