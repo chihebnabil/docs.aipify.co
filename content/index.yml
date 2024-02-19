@@ -1,9 +1,9 @@
-title: 'Nuxt UI Pro - Docs template'
-description: 'Welcome to Nuxt UI Pro documentation template.'
+title: 'Aipify Docs - API Creation Guide'
+description: 'This guide describes the process of creating an API on the Aipify platform.'
 navigation: false
 hero:
-  title: 'Build your docs in seconds'
-  description: 'Create your documentation in seconds with this template!'
+  title: 'Build your AI powered API in seconds'
+  description: 'This guide describes the process of creating an API on the Aipify platform.'
   orientation: horizontal
   headline:
     label: Made with Nuxt UI Pro
@@ -15,15 +15,17 @@ hero:
       trailing: true
       to: '/getting-started'
       size: lg
-    - label: Use this template
-      icon: i-simple-icons-github
-      size: lg
-      color: gray
-      to: https://github.com/nuxt-ui-pro/docs
-      target: _blank
   code: |
-    ```bash [Terminal]
-    curl --request POST
+    ```bash
+    curl --request POST \
+      --url https://api.aipify.co/get_joke \
+      --header 'Authorization: Bearer daa015e25ee5b85xxxxxxxxxxxx' \
+      --header 'Content-Type: application/json' \
+      --data '{
+        "messages" : [
+          { "role": "user", "content": "Write a dad joke" }
+        ]
+      }'
     ```
 features:
   title: 'All-in-one docs template'

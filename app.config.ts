@@ -10,7 +10,7 @@ export default defineAppConfig({
     }
   },
   seo: {
-    siteName: 'Nuxt UI Pro - Docs template',
+    siteName: 'Aipify Docs',
   },
   header: {
     logo: {
@@ -22,34 +22,29 @@ export default defineAppConfig({
     colorMode: true,
     links: [{
       icon: 'i-simple-icons-github',
-      to: 'https://github.com/nuxt-ui-pro/docs',
+      to: 'https://github.com/chihebnabil/docs.aipify.co',
       target: '_blank',
-      'aria-label': 'Docs template on GitHub'
+      'aria-label': 'Docs on GitHub'
     }]
   },
   footer: {
-    credits: 'Copyright © 2023',
+    credits: 'Copyright © 2024',
     colorMode: false,
     links: [{
-      icon: 'i-simple-icons-nuxtdotjs',
-      to: 'https://nuxt.com',
+      icon: 'i-simple-icons-jsonwebtokens',
+      to: 'https://remoteskills.io/',
       target: '_blank',
-      'aria-label': 'Nuxt Website'
+      'aria-label': 'Website'
     }, {
-      icon: 'i-simple-icons-discord',
-      to: 'https://discord.com/invite/ps2h6QT',
+      icon: 'i-simple-icons-linkedin',
+      to: 'https://www.linkedin.com/company/80942171/admin/feed/posts/',
       target: '_blank',
-      'aria-label': 'Nuxt UI on Discord'
-    }, {
-      icon: 'i-simple-icons-x',
-      to: 'https://x.com/nuxt_js',
-      target: '_blank',
-      'aria-label': 'Nuxt on X'
+      'aria-label': 'The Company on LinkedIn'
     }, {
       icon: 'i-simple-icons-github',
-      to: 'https://github.com/nuxt/ui',
+      to: 'https://github.com/chihebnabil/docs.aipify.co',
       target: '_blank',
-      'aria-label': 'Nuxt UI on GitHub'
+      'aria-label': 'Docs on GitHub'
     }]
   },
   toc: {

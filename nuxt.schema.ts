@@ -75,13 +75,13 @@ export default defineNuxtSchema({
       }
     }),
     seo: group({
-      title: 'SEO',
-      description: 'SEO configuration.',
+      title: 'Aipify Docs',
+      description: 'Aipify Docs',
       icon: 'i-ph-app-window',
       fields: {
         siteName: field({
           type: 'string',
-          title: 'Site Name',
+          title: 'Aipify Docs',
           description: 'Name used in ogSiteName and used as second part of your page title (My page title - Nuxt UI Pro).',
           icon: 'i-mdi-web',
           default: []
